@@ -1,0 +1,334 @@
+*{
+    border: none;
+    padding: 0px;
+}
+body{
+    font-family: Montserrat, sans-serif;
+}
+h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 67px;
+    letter-spacing: 0.04em;
+}
+h3{
+    font-style: normal;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.02em;
+
+}
+h4{
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+    color: white;
+}
+
+/* менюха */
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav a {
+    text-decoration: none;
+    font-weight: 600;   
+    color: #212121;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logo{
+    margin-top: 20px;
+}
+menu{
+    letter-spacing: 0.03em;
+    margin-top: 32px;
+}
+.basket{
+    margin-top: 22px;
+}
+/* ..менюха */
+
+/* Основа */
+.conteiner{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1120px;
+}
+
+.slider{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+
+.saleButton{
+    background-color: #D7B399;
+    width: 240px;
+    height: 55px;
+    left: 405px;
+    top: 419px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    border: none;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+.saleButton:hover{
+    color: #D7B399;
+    background-color:white;
+    border: 1px solid #D7B399;
+    transition: 0.3s all;   
+
+}
+
+.saleText{
+    display: flex;
+    flex-direction: column;
+}
+.saleText h1 {
+    margin-top: 35px;
+    margin-bottom: 55px;
+    align-items: center;
+}
+.saleInfo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+/* Основа */
+
+/* Каталог */
+/* Мужская колекшн*/
+.catalog{
+    width: 1115px;
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+}
+/* ..Мужская колекшн*/
+
+
+/* Женская колекшн */
+
+/* ..Женская колекшн */
+
+/* Просто шмотки */
+
+/* ..Просто шмотки */
+
+
+/* Новые модели */
+.newModel h3{
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #212121;
+    text-align: center;
+    margin-top: 150px;
+}
+.newModel div{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 255px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    /* border-bottom: 4px solid #D7B399;
+    border-left: 4px solid #D7B399;
+    border-top: 4px solid white;
+    border-right: 4px solid white; */
+    margin: 30px;
+}
+
+.card img{
+    margin-top: 30px;
+    width: 205px;
+    height: 211px;
+
+}
+.card h4{
+    margin-top: 25px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: black;
+}
+.card span{
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #D7B399;
+}
+.newModel button{
+    background-color: #D7B399;
+    color: white;
+    text-transform: uppercase;
+    width: 220px;
+    height: 55px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.newModel button:hover{
+    color: #D7B399;
+    background-color:white;
+    border: 1px solid #D7B399;
+    transition: 0.3s all;   
+
+}
+.newModel{
+    text-align: center;
+}
+/* ..каталог */
+
+/* Черная полоса */
+.blackConteiner1{
+    background-color: #212121;
+    color: white;
+    text-align: center;
+}
+ .blackConteiner1 span {
+    font-weight: bold;
+    text-transform: uppercase;
+ }
+
+ .blackConteiner1 h3{
+     padding-top: 80px;
+     padding-bottom: 23px;
+ }
+ .blackConteiner1 h4{
+     padding-bottom: 69px;
+ }
+/* Черная полоса */
+
+/* Черная полоса */
+.blackConteiner2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 180px;
+    background-color: #212121;
+    color: white;
+}
+ .blackConteiner2 span {
+    font-weight: bold;
+    text-transform: uppercase;
+ }
+
+ .blackConteiner2 input{
+    height: 40px;
+    margin-left: 80px;
+    margin-right: 35px;
+ }
+ .blackConteiner2 button{
+    background-color: #D7B399;
+    color: white;
+    text-transform: uppercase;
+    width: 185px;
+    height: 40px;
+ }
+ .blackConteiner2 button:hover{
+    color: #D7B399;
+    background-color:white;
+    border: 1px solid #D7B399;
+    transition: 0.3s all;   
+
+}
+/* Черная полоса */
+
+
+
+footer{
+    background-color:  #212121;
+}
+.footerConteiner{
+    width: 1110px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ 
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 22px;
+    color: #CBCFD4;
+    margin-bottom: 10px;
+}
+footer span{
+    font-size: 10px;
+    line-height: 12px; 
+    font-weight: bold;
+    color: #FFFFFF;
+    text-transform: uppercase; 
+    margin-bottom: 20px;
+}
+.footerInfo{
+    margin-top: 73px;
+    margin-right: 70px;
+}
+.footerConteiner div{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.footerInfo img{
+    margin-bottom: 32px;
+}
+
+.copyrihght{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+}
+.footerInfoSpan{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 22px;  
+}
+
+.copyright{
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+}
+.copyright a{
+
+    text-decoration: none;
+    color: #212121;
+}
