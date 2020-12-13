@@ -5,8 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>The Loop</title>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/animate.css">
 
     </head>
 
@@ -38,10 +40,18 @@
         <main>
             <!-- Картинка со скидками -->
             <div class="conteiner">
-                <section class = "saleInfo">   
+                <section class = "saleInfo">
                     <div class = "saleText">
-                        <h3>Зимняя распродажа</h3>
+                        <h3 class ="wow animate__pulse">Зимняя распродажа</h3>
                         <h1 >скидки до 90%</h1>
+                        <h3 class = "timer">До конца акции
+                            <div class = "timer-tick">
+                                <samp id = "h"></samp>
+                                <samp id = "m"></samp>
+                                <samp id = "s"></samp>
+                            </div>
+                        </h3> 
+                        
                         <button class = "saleButton">смотреть модели</button>
                     </div>
                     <img src="images/running_shoes_PNG5823.png" alt="" class= "saleImage">
@@ -51,9 +61,11 @@
             </div>
             <!-- Картинка со скидками -->
             <!-- Черная полоса 1 -->
-                <section class="blackConteiner1"> 
+                <section class="blackConteiner1" > 
+                    <div class = "wow animate__headShake">
                     <h3> <span class = "boldText">бесплатная доставка</span> от 3000р</h3>
-                    <h4>Cделайте заказ и получите подарок!</h4>
+                    <h4 class = "">Cделайте заказ и получите подарок!</h4>
+                    </div>
                 </section>
             <!-- //Черная полоса 1 -->
 
@@ -67,7 +79,7 @@
                     <div class = "woomans">
 
                     </div>
-                    <div class = "catalog conteiner" >
+                    <div class = "catalog conteiner wow animate__backInRight" >
                         <a href="#"><img src="images/catalog__item.png" alt=""></a>
                         <a href="#"><img src="images/catalog__item 2.png" alt=""></a>
                         <a href="#"><img src="images/catalog__item.png" alt=""></a>
@@ -78,7 +90,7 @@
                         <a href="#"><img src="images/catalog__item.png" alt=""></a>
                     </div>
                 </section>
-                <section class = "newModel conteiner">
+                <section class = "newModel conteiner wow animate__backInLeft">
                     <h3>Новые модели </h3> 
                     <div>
                         <a href="#" class = "card">
@@ -115,7 +127,7 @@
 
             </section>
              <!-- Черная полоса 2 -->
-             <section class = "newModel conteiner">
+             <section class = "newModel conteiner wow animate__backInUp">
                 <h3>Скидки до 90% </h3> 
                 <div>
                     <a href="#" class = "card">
@@ -189,5 +201,8 @@
             </span>
             <a href="">Политика приватности</a>
         </div>
+        <script src= "https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+        <script src= "js/main.js"></script>
     </body>
+
 </html>

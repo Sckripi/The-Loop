@@ -96,8 +96,14 @@ menu{
 }
 .saleText h1 {
     margin-top: 35px;
-    margin-bottom: 55px;
+    margin-bottom: 30px;
     align-items: center;
+}
+.timer{
+    margin-bottom: 5px;
+}
+.timer-tick{
+    margin-bottom: 30px;
 }
 .saleInfo{
     display: flex;
@@ -209,6 +215,7 @@ menu{
  .blackConteiner1 span {
     font-weight: bold;
     text-transform: uppercase;
+
  }
 
  .blackConteiner1 h3{
